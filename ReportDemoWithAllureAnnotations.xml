@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="listeners.MyReportListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="D:/Java/AllureReportDemo/src/test/java/allurereports/ReportDemoWithAllureAnnotations.java">
+        <classes>
+            <class name="allurereports.ReportDemoWithAllureAnnotations"></class>
+        </classes>
+    </test>
+</suite>
